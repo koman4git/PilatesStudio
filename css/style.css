@@ -1,0 +1,45 @@
+body{
+    margin: 0 auto;
+    padding: 0 100px 0 100px;
+}
+a{
+    text-decoration: none;
+}
+.main-header{
+    background-color: green;
+}
+.main-header-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.site-navigation{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    width: 500px;
+    list-style-type: none;
+}
+.site-navigation-item{
+    
+}
+.pad-top-bot{
+    margin: 0;
+    padding: 20px 0 20px 0;
+}
+.visually-hidden{
+    visibility: hidden;
+}
+h1{
+    text-transform: uppercase;
+    width: 400px;
+}
+.description-block-text{
+    width: 45%;
+}
+.description-block{
+    display: flex;
+    padding-top: 100px;
+}
+.description-block img{
+    padding-right: 200px;
+}
