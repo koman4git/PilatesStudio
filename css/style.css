@@ -56,5 +56,18 @@ h2{
     left: 0;
 }
 .description-block img{
-    padding-right: 200px;
+    padding-right: 150px;
 }
+/*секция тарифы*/
+.tariffs-block-list{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-column-gap: 20px;
+    list-style-type: none;
+    padding: 0;
+}
+.tariffs-block-item{
+   background-color: lightblue; 
+    padding: 30px;
+}
+
