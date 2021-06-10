@@ -40,6 +40,21 @@ h1{
     display: flex;
     padding-top: 100px;
 }
+h2{
+    position: relative;
+    padding-left: 50px;
+    text-transform: uppercase;
+    font-size: 32px;
+}
+.title-h2::before{
+    width: 37px;
+    height: 2px;
+    background-color: #000000;
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
 .description-block img{
     padding-right: 200px;
 }
